@@ -54,15 +54,15 @@ export default function Home() {
             </p>
           </Link>
           <Link
-            href="/"
+            href="/spettacoli"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Paesaggi <span>-&gt;</span>
+              Spettacoli <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Tutto intorno a noi
+              La magia delle emozioni
             </p>
           </Link>
           <Link
