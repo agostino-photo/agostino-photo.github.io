@@ -1,9 +1,10 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
 import { MDXProvider } from '@mdx-js/react'
-import Image from 'next/image'
+import { ThemeProvider } from '@mui/material'
+import type { AppProps } from 'next/app'
+import { ComponentProps } from 'react'
 import Typography from '../src/components/Typography'
-import React, { ComponentProps } from 'react'
+import theme from '../src/theming/theme'
+import '../styles/globals.css'
 
 type TypographyNoVariantProps = Omit<ComponentProps<typeof Typography>, 'variant'>
 
@@ -17,8 +18,10 @@ const components = {
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <MDXProvider components={components}>
-      <Component {...pageProps} />
-    </MDXProvider>
+    <ThemeProvider theme={theme}>
+      <MDXProvider components={components}>
+        <Component {...pageProps} />
+      </MDXProvider>
+    </ThemeProvider>
   )
 }
