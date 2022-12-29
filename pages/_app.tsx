@@ -2,8 +2,8 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { MDXProvider } from '@mdx-js/react'
 import Image from 'next/image'
-import Typography from '../src/components/Tipography'
-import React, {ComponentProps} from 'react'
+import Typography from '../src/components/Typography'
+import React, { ComponentProps } from 'react'
 
 type TypographyNoVariantProps = Omit<ComponentProps<typeof Typography>, 'variant'>
 
@@ -20,5 +20,5 @@ export default function App({ Component, pageProps }: AppProps) {
     <MDXProvider components={components}>
       <Component {...pageProps} />
     </MDXProvider>
-  );
+  )
 }
