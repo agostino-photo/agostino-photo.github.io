@@ -1,0 +1,24 @@
+import HomeLayout from '../src/layouts/HomeLayout'
+
+export const meta = {
+  title: 'Agostino Photo Studio',
+  links: [
+    {
+      title: 'Primipiani',
+      subtitle: 'Le emozioni dei particolari',
+      href: '/',
+    },
+    {
+      title: 'Spettacoli',
+      subtitle: 'La magia delle emozioni',
+      href: '/spettacoli',
+    },
+    {
+      title: 'Natura',
+      subtitle: `Il fascino dell'incontaminato`,
+      href: '/',
+    },
+  ]
+}
+
+export default ({ children }) => <HomeLayout meta={meta}>{children}</HomeLayout>
