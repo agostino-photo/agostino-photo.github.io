@@ -5,6 +5,9 @@ const theme = createTheme({
     h1: {
       fontSize: '2rem',
     },
+    h4: {
+      fontSize: '1.2rem',
+    },
   },
 })
 

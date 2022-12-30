@@ -12,7 +12,7 @@ export const meta: HomeLayoutMeta = {
     {
       title: 'Spettacoli',
       subtitle: 'La magia delle emozioni',
-      href: '/spettacoli',
+      href: '/galleria/spettacoli',
     },
     {
       title: 'Natura',
