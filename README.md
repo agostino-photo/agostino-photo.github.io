@@ -16,7 +16,7 @@ Controlla lo stato delle Actions: <https://github.com/agostino-photo/agostino-ph
 
 Ogni link ha tre campi: titolo, sottotitolo e href. Quest'ultimo è il link vero e proprio.
 I link sono espressi con la semplice [sintassi JSON](https://www.html.it/articoli/introduzione-a-json/) e possono essere modificati in
-[`/pages/index.mdx`](https://github.com/agostino-photo/agostino-photo.github.io/blob/main/pages/index.mdx).
+[`/pages/index.tsx`](https://github.com/agostino-photo/agostino-photo.github.io/blob/main/pages/index.tsx).
 
 Il file può quindi essere modificato premendo l'icona della matita.
 
