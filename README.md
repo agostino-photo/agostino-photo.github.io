@@ -26,3 +26,22 @@ Una volta completate le modifiche premere su "Commit changes" in fondo alla pagi
 
 ![image](https://user-images.githubusercontent.com/1292230/210061419-f425d368-4615-4918-a9e5-595f3d1ccee3.png)
 
+
+### Caricare nuove fotografie
+
+Le fotografie vanno caricate in [`/public/pictures`](https://github.com/agostino-photo/agostino-photo.github.io/tree/main/public/pictures).
+
+Una volta raggiunto il link, le foto possono essere caricate premendo `Add file`>`Upload files`
+
+![image](https://user-images.githubusercontent.com/1292230/210061897-05ce94d8-48a1-4579-b52d-95653a486448.png).
+
+**Nota**: affinché le foto siano mostrate, è necessario aggiungerle a una galleria di foto come spiegato a seguire.
+
+### Aggiungere foto a una galleria
+
+Il processo è simile a quello illustrato precedentemente per modificare i link. Ogni
+galleria ha un file `galleria_NOMEFILE.mdx` associato (es. *Natura* sarà in `galleria_natura.mdx`). 
+
+Tali file sono tutti collocati nella cartella [`/pages`](https://github.com/agostino-photo/agostino-photo.github.io/tree/main/pages),
+selezionare la galleria desiderata e modificarla come si desidera.
+
