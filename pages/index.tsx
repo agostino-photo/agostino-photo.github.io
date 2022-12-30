@@ -1,6 +1,7 @@
-import HomeLayout from '../src/layouts/HomeLayout'
+import React from 'react'
+import HomeLayout, { HomeLayoutMeta } from '../src/layouts/HomeLayout'
 
-export const meta = {
+export const meta: HomeLayoutMeta = {
   title: 'Agostino Photo Studio',
   links: [
     {
@@ -18,7 +19,8 @@ export const meta = {
       subtitle: `Il fascino dell'incontaminato`,
       href: '/',
     },
-  ]
+  ],
 }
 
-export default ({ children }) => <HomeLayout meta={meta}>{children}</HomeLayout>
+const Index: React.FC<{children: React.ReactNode}> = ({ children }) => <HomeLayout meta={meta}>{children}</HomeLayout>
+export default Index

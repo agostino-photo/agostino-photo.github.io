@@ -1,10 +1,22 @@
+import { Stack } from '@mui/material'
 import React from 'react'
 
-const BaseLayout: React.FC<{children: React.ReactNode}> = ({ children }) => {
+export interface BaseLayoutMeta {
+  title: string
+}
+
+interface Props {
+  meta: BaseLayoutMeta,
+  children?: React.ReactNode
+}
+
+const BaseLayout: React.FC<Props> = ({ children }) => {
   return (
-    <div style={{ backgroundColor: "red" }}>
+    <Stack sx={{
+      minHeight: "100vh",
+    }}>
       {children}
-    </div>
+    </Stack>
   )
 }
 
