@@ -1,6 +1,6 @@
 # Agostino Photo Studio
 
-Un sito realizzato con Next.js, MDX e Material UI.
+Un sito realizzato con [Next.js](https://nextjs.it/posts/framework-react-per-la-produzione-web), MDX ([markdown](https://it.wikipedia.org/wiki/Markdown)) e [Material UI](https://www.intre.it/2020/04/30/applicazioni-react-utilizzando-material-ui/).
 
 Il sito è consultabile qui: <https://agostino-photo.github.io/>
 
