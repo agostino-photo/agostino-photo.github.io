@@ -12,7 +12,7 @@ occupa di questo si chiama GitHub Actions.
 
 Controlla lo stato delle Actions: <https://github.com/agostino-photo/agostino-photo.github.io/actions>
 
-### Cambiare link dell'home page
+### Cambiare i link dell'home page
 
 Ogni link ha tre campi: titolo, sottotitolo e href. Quest'ultimo è il link vero e proprio.
 I link sono espressi con la semplice sintassi JSON e possono essere modificati in
