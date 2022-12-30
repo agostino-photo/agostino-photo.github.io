@@ -44,4 +44,5 @@ galleria ha un file `galleria_NOMEFILE.mdx` associato (es. *Natura* sarà in `ga
 
 Tali file sono tutti collocati nella cartella [`/pages`](https://github.com/agostino-photo/agostino-photo.github.io/tree/main/pages),
 selezionare la galleria desiderata e modificarla come si desidera.
+Ogni foto ha tre campi: titolo, descrizione e nome del file. Il nome del file deve corrispondere a quello di una delle foto precedentemente caricate (come mostrato al passo precedente) e includere l'estensione; se assente, verrà presunta come `.jpeg`.
 
