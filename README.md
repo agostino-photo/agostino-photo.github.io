@@ -12,11 +12,8 @@ occupa di questo si chiama GitHub Actions.
 
 Controlla lo stato delle Actions: <https://github.com/agostino-photo/agostino-photo.github.io/actions>
 
-### Cambiare i link dell'home page
-
-Ogni link ha tre campi: titolo, sottotitolo e href. Quest'ultimo è il link vero e proprio.
-I link sono espressi con la semplice [sintassi JSON](https://www.html.it/articoli/introduzione-a-json/) e possono essere modificati in
-[`/pages/index.tsx`](https://github.com/agostino-photo/agostino-photo.github.io/blob/main/pages/index.tsx).
+### Cambiare i contenuti
+Tutte le configurazioni sono presenti in [config/content.ts](https://github.com/agostino-photo/agostino-photo.github.io/blob/main/config/content.ts) e I sono espresse con la semplice [sintassi JSON](https://www.html.it/articoli/introduzione-a-json/).
 
 Il file può quindi essere modificato premendo l'icona della matita.
 
@@ -38,9 +35,5 @@ Una volta raggiunto il link, le foto possono essere caricate premendo `Add file`
 
 ### Aggiungere foto a una galleria
 
-Il processo è simile a quello illustrato precedentemente per modificare i link. Ogni
-galleria ha un file `galleria_NOMEFILE.mdx` associato (es. *Natura* sarà in `galleria_natura.mdx`).
-
-Tali file sono tutti collocati nella cartella [`/pages`](https://github.com/agostino-photo/agostino-photo.github.io/tree/main/pages),
-selezionare la galleria desiderata e modificarla come si desidera.
+Il processo è simile a quello illustrato precedentemente e avviene sempre dal file di configurazione.
 Ogni foto ha tre campi: titolo, descrizione e nome del file. Il nome del file deve corrispondere a quello di una delle foto precedentemente caricate (come mostrato al passo precedente) e includere l'estensione; se assente, verrà presunta come `.jpeg`.
