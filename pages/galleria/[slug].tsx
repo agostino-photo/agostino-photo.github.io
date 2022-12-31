@@ -7,13 +7,12 @@ export
 const SpettacoliPage = () => {
   const router = useRouter()
   const { slug } = router.query
+  const meta = content.galleries[slug as string]
   
-  if (!slug) {
+  if (!slug || !meta) {
     return null
   }
-
-  const meta = content.galleries[slug as string]
-
+  
   return <GalleryLayout meta={meta} />
 }
 
