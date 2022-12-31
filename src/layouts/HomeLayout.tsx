@@ -1,3 +1,4 @@
+import ArrowForwardIosNewIcon from '@mui/icons-material/ArrowForwardIos'
 import { Stack, Typography } from '@mui/material'
 import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
@@ -37,7 +38,7 @@ const HomeLayout: React.FC<Props> = ({ meta }) => (
           rel="noopener noreferrer"
         >
           <Typography variant='h5'>
-            {title} <span>-&gt;</span>
+            {title} <ArrowForwardIosNewIcon sx={{ margin: 0 }}/>
           </Typography>
           <Typography variant='subtitle2'>
             {subtitle}
