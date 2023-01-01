@@ -25,7 +25,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
       sx={{
         ['&:after']: {
           width: '50%',
-          height: '35%',
+          height: '75%',
           zIndex: -1,
           ...blurredBlueGradientBG,
           ...pseudoBackgroundStyle,
@@ -33,7 +33,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         ['&:before']: {
           borderRadius: '50%',
           width: '80%',
-          height: '25%',
+          height: '90%',
           marginLeft: '-45vw',
           ...blurredBlueGradientBG,
           ...pseudoBackgroundStyle,
