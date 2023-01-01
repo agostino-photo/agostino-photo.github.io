@@ -51,7 +51,23 @@ export const content: Readonly<ContentType> = {
     paesi_e_citta: {
       title: 'Paesi & Città',
       subtitle: `Angoli e scorci dei nostri luoghi`,
-      photos: [],
+      photos: [
+        {
+          title: 'Momenti di convivialità',
+          caption: '',
+          fileName: 'momenti_di_convivialita.jpeg',
+        },
+        {
+          title: 'Ufficio Turistico',
+          caption: '',
+          fileName: 'ufficio_turistico.jpeg',
+        },
+        {
+          title: 'La piazza',
+          caption: '',
+          fileName: 'la_piazza.jpeg',
+        },
+      ],
     },
     spettacoli: {
       title: 'Spettacoli',
