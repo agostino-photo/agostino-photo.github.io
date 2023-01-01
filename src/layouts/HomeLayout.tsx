@@ -37,12 +37,17 @@ const HomeLayout: React.FC<Props> = ({ meta }) => (
           className={styles.card}
           rel="noopener noreferrer"
         >
-          <Typography variant='h5'>
-            {title} <ArrowForwardIosNewIcon sx={{ margin: 0 }}/>
-          </Typography>
-          <Typography variant='subtitle2'>
-            {subtitle}
-          </Typography>
+          <Stack>
+            <Stack direction="row" alignItems="center">
+              <Typography variant='h5'>
+                {title}
+              </Typography>
+              <ArrowForwardIosNewIcon />
+            </Stack>
+            <Typography variant='subtitle2'>
+              {subtitle}
+            </Typography>
+          </Stack>
         </Link>
       ))}
     </Stack>
