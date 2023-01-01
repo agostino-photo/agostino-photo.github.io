@@ -1,7 +1,6 @@
 import ArrowForwardIosNewIcon from '@mui/icons-material/ArrowForwardIos'
 import { Stack, Typography } from '@mui/material'
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
 import BaseLayout, { BaseLayoutMeta } from './BaseLayout'
 
 export interface HomeLayoutMeta extends BaseLayoutMeta {
@@ -29,13 +28,11 @@ const HomeLayout: React.FC<Props> = ({ meta }) => (
     >
       {/* Some content here */}
     </Stack>
-    <Stack>
+    <Stack spacing="1.5rem">
       {meta.links.map(({ title, subtitle, href }, index) => (
         <Link
           key={index}
           href={href}
-          className={styles.card}
-          rel="noopener noreferrer"
         >
           <Stack>
             <Stack direction="row" alignItems="center">
