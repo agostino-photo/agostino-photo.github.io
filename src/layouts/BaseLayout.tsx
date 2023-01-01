@@ -40,7 +40,17 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         },
       }}
     >
-      {children}
+      <Stack 
+        width="100%" 
+        height="100%" 
+        maxWidth="1200px"
+        marginX="auto" 
+        flexGrow={1} 
+        marginBottom="2.5rem"
+        marginTop="1rem"
+      >
+        {children}
+      </Stack>
     </Stack>
   )
 }
