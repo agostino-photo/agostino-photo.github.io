@@ -24,8 +24,33 @@ export const content: Readonly<ContentType> = {
   },
   galleries: {
     primipiani: {
-      title: 'Primipiani',
+      title: 'Primipiani & Ritratti',
       subtitle: 'Le emozioni dei particolari',
+      photos: [],
+    },
+    natura: {
+      title: 'Natura',
+      subtitle: `Il fascino dell'incontaminato`,
+      photos: [],
+    },
+    tramonti: {
+      title: 'Tramonti',
+      subtitle: `Un classico instancabile`,
+      photos: [],
+    },
+    still_life: {
+      title: 'Still Life',
+      subtitle: `La cattura di un istante`,
+      photos: [],
+    },
+    fiori_e_piante: {
+      title: 'Fiori & Piante',
+      subtitle: `Semplici ma sempre unici`,
+      photos: [],
+    },
+    paesi_e_citta: {
+      title: 'Paesi & Città',
+      subtitle: `Angoli e scorci dei nostri luoghi`,
       photos: [],
     },
     spettacoli: {
@@ -44,9 +69,9 @@ export const content: Readonly<ContentType> = {
         },
       ],
     },
-    natura: {
-      title: 'Natura',
-      subtitle: `Il fascino dell'incontaminato`,
+    bianco_e_nero: {
+      title: 'Bianco e Nero',
+      subtitle: `Il chiaroscuro che esalta i dettagli`,
       photos: [],
     },
   },
