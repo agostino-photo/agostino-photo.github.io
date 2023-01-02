@@ -12,6 +12,7 @@ interface Props {
 }
 
 const pseudoBackgroundStyle: CSSObject = {
+  zIndex: -1,
   borderRadius: '50%',
   content: '""',
   left: '50%',
@@ -26,7 +27,6 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         ['&:after']: {
           width: '50%',
           height: '75%',
-          zIndex: -1,
           ...blurredBlueGradientBG,
           ...pseudoBackgroundStyle,
         },
