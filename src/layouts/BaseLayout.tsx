@@ -44,10 +44,15 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         width="100%" 
         height="100%" 
         maxWidth="1200px"
-        marginX="auto" 
+        marginX="0.5rem"
         flexGrow={1} 
         marginBottom="2.5rem"
         marginTop="1rem"
+        sx={(theme) => ({
+          [theme.breakpoints.up('md')]: {
+            marginX: 'auto',
+          },
+        })}
       >
         {children}
       </Stack>
