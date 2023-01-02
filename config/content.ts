@@ -188,7 +188,14 @@ export const content: Readonly<ContentType> = {
     bianco_e_nero: {
       title: 'Bianco e Nero',
       subtitle: `Il chiaroscuro che esalta i dettagli`,
-      photos: [],
+      photos: [
+        {
+          title: 'Fungo e foglie',
+          caption: '',
+          fileName: 'fungo_e_foglie_bn.jpeg',
+        },
+        
+      ],
     },
   },
 }
