@@ -66,6 +66,11 @@ export const content: Readonly<ContentType> = {
           caption: '',
           fileName: 'tramonto_sul_colle.jpeg',
         },
+        {
+          title: 'Tramonto sfumato',
+          caption: '',
+          fileName: 'tramonto1.jpg',
+        },
       ],
       
     },
